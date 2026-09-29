@@ -1,0 +1,7 @@
+1. ¿Tuviste que modificar `calcularTotalNomina()` para que incluyera a los comerciales? ¿Por qué no? ¿Qué concepto de POO lo hizo posible?
+
+R\ No fue necesario modificar el método `calcularTotalNomina()`, porque este ya podía trabajar con diferentes tipos de empleados. Esto fue posible gracias al polimorfismo, que permite utilizar un mismo método con diferentes clases que comparten una misma estructura o herencia.
+
+2. ¿Cuántos archivos de la capa modelo modificaste (no creaste)? ¿Qué te dice eso sobre MVC?
+
+R\ Solo fue necesario modificar los archivos del modelo que requerían cambios para implementar la nueva funcionalidad. Esto demuestra que MVC permite separar las responsabilidades de la aplicación, facilitando el mantenimiento y la ampliación del sistema sin tener que modificar todos sus componentes.
